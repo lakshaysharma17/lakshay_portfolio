@@ -1,11 +1,11 @@
-import Pdf from './Resume.pdf';
+import Pdf from '/Resume.pdf';
 import { useNavigate } from 'react-router-dom'
 import { motion } from "framer-motion"
 import { FaReact } from "react-icons/fa";
 import { TbBrandLeetcode } from "react-icons/tb";
 import { SiTailwindcss} from "react-icons/si";
 import { FaPython } from "react-icons/fa";
-import { FiFigma } from "react-icons/fi";
+import { FaJava } from "react-icons/fi";
 
 
 
@@ -101,7 +101,7 @@ export function Home() {
 ' /> 
               </motion.image>
               <div className='absolute inset-0 flex items-center justify-center text-white text-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
-                React
+                Web Development
               </div>
             </div>
 
@@ -111,7 +111,7 @@ export function Home() {
  absolute inset-0 size-5 w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0' /> 
               </motion.image>
               <div className='absolute inset-0 flex items-center justify-center text-white text-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
-                Data Structures
+                Data Structures and Algorithms
               </div>
             </div>
 
@@ -137,11 +137,11 @@ export function Home() {
 
             <div className='relative w-16 h-20 group'>
             <motion.image initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
-              <FiFigma alt="" className='
+              <FaJava alt="" className='
  absolute inset-0 size-5 w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0' /> 
               </motion.image>
               <div className='absolute inset-0 flex items-center justify-center text-white text-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
-                UI/UX Design
+                Java
               </div>
               <div></div>
             </div>
