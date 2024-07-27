@@ -72,7 +72,7 @@ function App() {
     </div>
 
 <div className='pt-32 text-white'>
-2024React & Tailwind CSS Portfolio.
+2024 Lakshay Sharma Portfolio.
 </div>
 
 </BrowserRouter>
@@ -140,7 +140,7 @@ function Appbar() {
             {/* <img src={A} alt="A"  className='h-8 rounded'/> */}
             <motion.div whileHover={{ scale: 1.3 }}>
               <div className="  hover:cursor-pointer pl-3 text-3xl text-[#a8a4f4]
- font-semibold" onClick={() => navigate("/")}>Aayushi.</div></motion.div>
+ font-semibold" onClick={() => navigate("/")}>Lakshay.</div></motion.div>
             </div>
             <div className="hidden md:block text-2xl">
               <div className="ml-10 flex items-baseline space-x-4 text-2xl ">
@@ -167,7 +167,7 @@ function Appbar() {
  rounded py-2 px-4 hover:bg-[#a8a4f4] 
  hover:text-white text-sm font-medium"
               >
-                Hire Me
+                Contact Me!
               </button>
              
             </div>
