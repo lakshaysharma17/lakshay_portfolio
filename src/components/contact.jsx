@@ -6,17 +6,17 @@ export function Contactpage(){
     const contacts = [
         {
             id: 1,
-            name: 'Your Address, Your City, Your Country',
+            name: 'Sector-5, Rohini, New Delhi, India',
             icon: <FiMapPin />,
         },
         {
             id: 2,
-            name: 'email@domain.com',
+            name: 'Lakshaysharma1705@gmail.com',
             icon: <FiMail />,
         },
         {
             id: 3,
-            name: '555 8888 888',
+            name: '+91-7982406403',
             icon: <FiPhone />,
         },
     ];
